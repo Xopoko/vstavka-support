@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vstavka help
+    url: https://github.com/Xopoko/vstavka-support
+    about: Read shortcut, sound, paste, and history troubleshooting steps.
+  - name: Privacy policy
+    url: https://github.com/Xopoko/vstavka-support/blob/main/PRIVACY.md
+    about: Learn about local clipboard storage and the public support channel.
