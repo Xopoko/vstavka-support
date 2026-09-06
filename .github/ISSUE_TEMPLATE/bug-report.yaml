@@ -1,0 +1,51 @@
+name: Report a problem
+description: Report a Vstavka issue using harmless sample data.
+title: "[Vstavka] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not post clipboard history, passwords, tokens, private documents, or screenshots containing personal information. Describe the problem with harmless sample data.
+
+        For privacy questions, use the description field without including personal or sensitive information. See the [privacy policy](https://github.com/Xopoko/vstavka-support/blob/main/PRIVACY.md).
+  - type: input
+    id: app-version
+    attributes:
+      label: Vstavka version
+      description: Include the version shown in Windows Installed apps, if available.
+      placeholder: "For example: 0.2.2"
+    validations:
+      required: false
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      description: Include the Windows version and build if relevant. Do not include your account or device name.
+      placeholder: "For example: Windows 11"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem or question, including what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a harmless example and mention the affected app if helpful.
+      placeholder: |
+        1. Copy the text "Test note".
+        2. Press Ctrl+Shift+V.
+        3. ...
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-content
+    attributes:
+      label: Public report
+      options:
+        - label: I checked that this report does not contain private clipboard contents or other sensitive information.
+          required: true
