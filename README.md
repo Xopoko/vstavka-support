@@ -11,7 +11,7 @@ Vstavka is a free clipboard history app. It runs on macOS 13 or later and on Win
 
 1. Open Vstavka and follow the setup guide. When macOS asks about clipboard access, choose **Always Allow** to save new copies while Vstavka runs in the background.
 2. Copy some sample text, switch to the app where you want it and press **Shift–Command–V**. You can also open history from the Vstavka menu bar icon.
-3. Use the arrow keys to select a card. Press **Enter** to reuse it. If the item isn't pasted automatically, press **Command–V** in the destination app.
+3. Use the arrow keys to select a card. In the Mac App Store version, press **Enter** to copy the item, then **Command–V** in the destination app. The macOS preview can paste for you if you grant it Accessibility access.
 
 If the copy is missing, check whether saving is paused or the source app is excluded. On versions of macOS that offer clipboard controls, confirm Vstavka has access under **System Settings → Privacy & Security → Clipboard**. Apps may mark some copies as private. Vstavka skips copies with supported privacy markers.
 

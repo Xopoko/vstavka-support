@@ -31,7 +31,7 @@ Deleting an item or clearing history removes it from Vstavka. Original files, th
 
 ## Pasting and support
 
-When you select an item for copying or pasting, Vstavka places it on the system clipboard. The receiving app handles the item when you paste it. On platforms where Vstavka offers automatic paste, it sends the paste shortcut to the previously active app. On macOS, this feature requires optional Accessibility permission.
+When you select an item for copying or pasting, Vstavka places it on the system clipboard. The receiving app handles the item when you paste it. In the Mac App Store version, you paste the item with **Command–V**. Versions that offer automatic paste can send the paste shortcut to the previously active app. The macOS preview requires optional Accessibility permission for automatic paste.
 
 Support is provided through public GitHub issues. Submitting an issue requires a GitHub account. The publisher can read the GitHub username, issue text, comments and attachments that you voluntarily submit and use them to respond. These contributions are visible to others on the public repository. Include the app version, your macOS or Windows version and a description using harmless sample data. Leave out clipboard history, passwords, tokens, private documents and screenshots containing personal information.
 
