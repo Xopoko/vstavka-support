@@ -12,16 +12,16 @@ body:
     id: app-version
     attributes:
       label: Vstavka version
-      description: Include the version shown in Windows Installed apps, if available.
-      placeholder: "For example: 0.2.2"
+      description: Include the version shown in macOS Finder or Windows Installed apps, if available.
+      placeholder: "For example: 0.3.0"
     validations:
       required: false
   - type: input
-    id: windows-version
+    id: operating-system
     attributes:
-      label: Windows version
-      description: Include the Windows version and build if relevant. Do not include your account or device name.
-      placeholder: "For example: Windows 11"
+      label: macOS or Windows version
+      description: Include the operating system version and build if relevant. Leave out your account and device name.
+      placeholder: "For example: macOS 26 or Windows 11"
     validations:
       required: false
   - type: textarea
@@ -38,7 +38,7 @@ body:
       description: Use a harmless example and mention the affected app if helpful.
       placeholder: |
         1. Copy the text "Test note".
-        2. Press Ctrl+Shift+V.
+        2. Open Vstavka history.
         3. ...
     validations:
       required: false
